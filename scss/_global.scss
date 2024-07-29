@@ -1,0 +1,56 @@
+html {
+    box-sizing: border-box;
+}
+
+*, 
+*::before, 
+*::after {
+    box-sizing: inherit;
+}
+
+ul, 
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+h1, h2, h3, h4, h5, p {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+:root {
+    --bg: #fff;
+    --body-color: #FAFAFA;
+    --text-color: #111517;
+}
+
+.dark {
+    --bg: #2b3844;
+    --body-color: #202c36;
+    --text-color: #fff;
+  }
+
+.container {
+    max-width: 1320px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
